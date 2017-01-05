@@ -2,13 +2,14 @@ import gulp from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 import path from 'path';
 import del from 'del';
+import childProcess from 'child_process';
 import runSequence from 'run-sequence';
 
 const plugins = gulpLoadPlugins();
 
 const paths = {
   js: ['./**/*.js', '!dist/**', '!node_modules/**', '!coverage/**'],
-  nonJs: ['./package.json', './.gitignore'],
+  nonJs: ['./package.json', './.gitignore', './src/seeds/data/**/*.*'],
   tests: './src/tests/*.js'
 };
 
@@ -19,7 +20,7 @@ gulp.task('clean', () =>
 
 // Copy non-js files to dist
 gulp.task('copy', () =>
-  gulp.src(paths.nonJs)
+  gulp.src(paths.nonJs, {base: '.'})
     .pipe(plugins.newer('dist'))
     .pipe(gulp.dest('dist'))
 );

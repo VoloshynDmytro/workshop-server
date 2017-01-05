@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Table 1",
+    "seatsAmount": 8,
+    "color": "black"
+  },
+  {
+    "name": "Table 2",
+    "seatsAmount": 4,
+    "color": "grey"
+  },
+  {
+    "name": "Table 3",
+    "seatsAmount": 9,
+    "color": "black"
+  },
+  {
+    "name": "Table 4",
+    "seatsAmount": 14,
+    "color": "red"
+  },
+  {
+    "name": "Table 5",
+    "seatsAmount": 3,
+    "color": "red"
+  },
+  {
+    "name": "Table 6",
+    "seatsAmount": 2,
+    "color": "grey"
+  },
+  {
+    "name": "Table 7",
+    "seatsAmount": 10,
+    "color": "grey"
+  },
+  {
+    "name": "Table 8",
+    "seatsAmount": 5,
+    "color": "red"
+  }
+]

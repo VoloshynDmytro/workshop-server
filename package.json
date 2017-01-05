@@ -15,7 +15,8 @@
     "lint": "esw *.js src config --color",
     "test": "NODE_ENV=test babel-node node_modules/.bin/isparta cover _mocha -- --ui bdd --reporter spec --colors --compilers js:babel-core/register ./src/**/*.test.js",
     "test:check-coverage": "npm run test && istanbul check-coverage",
-    "report-coverage": "coveralls < ./coverage/lcov.info"
+    "report-coverage": "coveralls < ./coverage/lcov.info",
+    "seed": "gulp copy && gulp compile && node dist/src/seeds"
   },
   "repository": {
     "type": "git"
@@ -50,6 +51,8 @@
     "jsonwebtoken": "7.1.9",
     "method-override": "^2.3.5",
     "mongoose": "4.7.4",
+    "mongoose-autopopulate": "^0.5.0",
+    "mongoose-deep-populate": "^3.0.0",
     "morgan": "1.7.0",
     "winston": "2.3.0"
   },

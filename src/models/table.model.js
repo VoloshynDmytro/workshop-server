@@ -15,6 +15,10 @@ const TableSchema = new mongoose.Schema({
     type: Number,
     required: true
   },
+  color: {
+    type: String,
+    enum: ['black', 'red', 'grey']
+  },
   createdAt: {
     type: Date,
     default: Date.now

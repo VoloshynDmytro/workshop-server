@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Pizza",
+    "price": 223,
+    "type": "dish"
+  },
+  {
+    "name": "Sushi",
+    "price": 119,
+    "type": "dish"
+  },
+  {
+    "name": "Grilled Pork",
+    "price": 78,
+    "type": "dish"
+  },
+  {
+    "name": "Duck with apples",
+    "price": 112,
+    "type": "dish"
+  },
+  {
+    "name": "Tobacco Chicken",
+    "price": 90,
+    "type": "dish"
+  },
+  {
+    "name": "Cesar Salad",
+    "price": 45,
+    "type": "dish"
+  },
+  {
+    "name": "Pasta Carbonara",
+    "price": 53,
+    "type": "dish"
+  },
+  {
+    "name": "Olivie Salad",
+    "price": 48,
+    "type": "dish"
+  },
+  {
+    "name": "Bograch",
+    "price": 42,
+    "type": "dish"
+  },
+  {
+    "name": "Mush potato",
+    "price": 18,
+    "type": "dish"
+  },
+  {
+    "name": "Burger",
+    "price": 85,
+    "type": "dish"
+  },
+  {
+    "name": "Rum",
+    "price": 40,
+    "type": "drink"
+  },
+  {
+    "name": "Whiskey",
+    "price": 45,
+    "type": "drink"
+  },
+  {
+    "name": "Lager Beer",
+    "price": 23,
+    "type": "drink"
+  },
+  {
+    "name": "Tomato Juice",
+    "price": 17,
+    "type": "drink"
+  },
+  {
+    "name": "Cider",
+    "price": 27,
+    "type": "drink"
+  },
+  {
+    "name": "Dark beer",
+    "price": 26,
+    "type": "drink"
+  },
+  {
+    "name": "Vodka",
+    "price": 15,
+    "type": "drink"
+  },
+  {
+    "name": "Morgan Captain",
+    "price": 34,
+    "type": "drink"
+  },
+  {
+    "name": "Staryi Runok",
+    "price": 8,
+    "type": "drink"
+  }
+]
